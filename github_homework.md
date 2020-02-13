@@ -1,5 +1,7 @@
 # GitHub
 
+:star: This is a PDA Homework :star:
+
 Your task is to model GitHub to the following specification using TDD. Look for opportunities to use Enums.
 
 # MVP
@@ -54,3 +56,22 @@ Assert: Expected = [commit1, commit2]
 ```
 - Create a `GitHub` class which has a collection of `GitHubAccount`
 - We should be able to get an alphabetically sorted list of `GitHubAccount`s
+
+### PDA Reminder:
+
+As part of this homework you are required to take screenshots of the following:
+
+```
+- An example of encapsulation in a program.
+```
+
+Demonstrate testing in your program. Take screenshots of:
+
+```
+- Example of test code
+- The test code failing to pass
+- Example of the test code once errors have been corrected
+- The test code passing
+```
+
+- Submit your PDA evidence (screenshots, etc.) to Canvas
