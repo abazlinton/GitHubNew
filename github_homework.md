@@ -17,10 +17,10 @@ uniqueId
 
 Has these properties:
 
-- name  
-- description  
-- repositoryType (private, public)  
-- commits  
+name  
+description  
+repositoryType (private, public)  
+commits  
 
 - A Repository has collection of commits
 - `commits` could be an `ArrayList`
@@ -30,10 +30,10 @@ Has these properties:
 
 Has these properties:
 
-- username  
-- name  
-- repositories  
-- accountType (free, pro)
+username  
+name  
+repositories  
+accountType (free, pro)
 
 - GitHubAccounts contain a collection of repositories that can be added to
 - `repositories` could be a `HashMap<String, Repository>` where the key is the repo name and the value is a `Repository` object. If this is not clear you could use an ArrayList.
