@@ -1,6 +1,6 @@
 # GitHub
 
-Your task is to model GitHub to the following specification. Look for opportunities to use Enums.
+Your task is to model GitHub to the following specification using TDD. Look for opportunities to use Enums.
 
 # MVP
 
@@ -52,5 +52,5 @@ Arrange: [commit1, commit2, commit3]
 Act: repo.revert(commit2uniqueId)
 Assert: Expected = [commit1, commit2]
 ```
-- Create a `GitHub` class with has a collection of GitHubAccount
-- We should be able to get an alphabetically sorted list of GitHubAccount
+- Create a `GitHub` class which has a collection of GitHubAccount
+- We should be able to get an alphabetically sorted list of GitHubAccounts
