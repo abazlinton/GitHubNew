@@ -52,5 +52,5 @@ Arrange: [commit1, commit2, commit3]
 Act: repo.revert(commit2uniqueId)
 Assert: Expected = [commit1, commit2]
 ```
-- Create a `GitHub` class which has a collection of GitHubAccount
-- We should be able to get an alphabetically sorted list of GitHubAccounts
+- Create a `GitHub` class which has a collection of `GitHubAccount`
+- We should be able to get an alphabetically sorted list of `GitHubAccount`s
